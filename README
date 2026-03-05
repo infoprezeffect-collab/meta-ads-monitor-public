@@ -1,0 +1,26 @@
+# 🤖 Meta Ads AI Monitor
+
+Assistant IA autonome qui surveille tes campagnes Meta Ads et t'envoie un rapport de santé publicitaire chaque matin par email.
+
+**Ce que ça fait :**
+- 📊 Collecte les données de tes campagnes via Meta Graph API
+- 🤖 Analyse avec Claude IA (Anthropic)
+- 📧 Envoie un rapport HTML détaillé chaque matin à 9h00
+- 📅 Bilan stratégique hebdomadaire le lundi
+
+**Coût : ~6-7€/mois**
+
+## 📥 Installation
+
+Suis le guide complet étape par étape → [https://uneven-impala-cee.notion.site/Cr-er-ton-Assistant-IA-Meta-Ads-en-1-journ-e-31a1055a5b48805ab8c7d74132751047]
+
+## 📁 Fichiers
+- `meta_ads_monitor.py` — Script principal
+- `requirements.txt` — Dépendances Python
+- `env.example` — Template de configuration (renommer en `.env`)
+- `railway.json` — Configuration cron Railway
+- `Procfile` — Point d'entrée Railway
+- `refresh_token.py` — Renouvellement token Meta (tous les 60 jours)
+
+---
+*Par [Prez'effect](https://www.linkedin.com/in/ornella-falk-prezeffect/)*
