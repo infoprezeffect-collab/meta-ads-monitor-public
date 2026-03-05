@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python meta_ads_monitor.py",
+    "cronSchedule": "0 9 * * 1-5"
+  }
+}
